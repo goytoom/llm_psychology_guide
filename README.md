@@ -1,10 +1,11 @@
 # Overview
-This is the repository to the "Evaluating Large Language Models for Psychological Research" project.
+This is the repository to the paper "Evaluating Large Language Models for Psychological Research: A Reporting Guideline".
 We provide all codes, data, and instructions to replicate the examples shown in the paper. We further provide the exact prompts as well as model parameters and the instructions to replicate our python programming environment.
 
-## Hardware overview
-We ran the model on an NVIDIA RTX 4090 with 24GB VRAM on a Linux machine (Ubuntu 22.04 / Windows Subsystem for Linux).
+## Hardware Overview/Recommendations
+We tested the model on an NVIDIA RTX 4090 with 24GB VRAM on a Linux machine (Ubuntu 22.04 and Windows Subsystem for Linux).
 The model requires around 4GB of VRAM and should work on any modern NVIDIA GPU (e.g., Pascal architecture and newer).
+It may also work on systems without GPU (CPU inference), and Macs with M-series chips.
 
 ## Data
 No external data is necessary for replicating the examples shown in the paper. They require only prompting the model as shown in the code files and using the same model parameters.
@@ -12,7 +13,7 @@ No external data is necessary for replicating the examples shown in the paper. T
 We provide the files `requirements.txt` and `environment.yaml` to reproduce the python environment using pip and conda.
 
 ## Code files
-We provide a single python script (`replication.py`) that contains the prompts, model settings, and LLM queries. 
+We provide a single python script (`replication.py`) that contains the prompts, model settings, and LLM queries for replicating the examples in the paper. 
 
 ## LLM details
 We used the opensource LLaMA-3.1 model, specifically a 4bit quantized version from huggingface:
