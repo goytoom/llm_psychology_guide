@@ -2,6 +2,10 @@
 This is the repository to the "Evaluating Large Language Models for Psychological Research" project.
 We provide all codes, data, and instructions to replicate the examples shown in the paper. We further provide the exact prompts as well as model parameters and the instructions to replicate our python programming environment.
 
+## Hardware overview
+We ran the model on an NVIDIA RTX 4090 with 24GB VRAM on a Linux machine (Ubuntu 22.04 / Windows Subsystem for Linux).
+The model require around 4GB of VRAM and should work on any modern NVIDIA GPU (e.g., Pascal architecture and newer).
+
 ## Data
 No external data is necessary for replicating the examples shown in the paper. They require only prompting the model as shown in the code files and using the same model parameters.
 

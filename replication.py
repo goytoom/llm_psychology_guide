@@ -21,7 +21,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 ######## Example 1: Effect of temperature in styles of single sentences
-torch.manual_seed(42) # set seed for reproducibility
+torch.manual_seed(0) # set seed for reproducibility
 
 prompt = "Describe roses in one sentence."
 
@@ -53,7 +53,7 @@ for temp in [0.01, 2.0]: # run with low and high temperature
     print("\n")
 
 ######## Example 2: Effect of temperature on error correction
-torch.manual_seed(0) # set seed for reproducibility
+torch.manual_seed(1) # set seed for reproducibility
 
 sentence = """I consider that is more convenient to drive a car because you carry on more things in your own car than travelling by car."""
 prompt  = f"Update to fix all grammatical and spelling errors: \n\n {sentence}"
