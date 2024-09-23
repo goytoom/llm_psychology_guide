@@ -21,7 +21,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 ######## Example 1: Effect of temperature in styles of single sentences
-torch.manual_seed(0) # set seed for reproducibility
+torch.manual_seed(42) # set seed for reproducibility
 
 prompt = "Describe roses in one sentence."
 
