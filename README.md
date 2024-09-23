@@ -25,4 +25,6 @@ We used the opensource LLaMA-3.1 model, specifically a 4bit quantized version fr
 - In the command line run `conda activate replication` to activate the python programming environment
 - Run the replication script in the command line: `python replication.py`
 
-This should output the prompts used in the example and the model's response.
+This should output the prompts used in the example and the model's response:
+
+![alt text](image.png)
