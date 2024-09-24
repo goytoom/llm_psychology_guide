@@ -4,8 +4,10 @@ We provide all codes, data, and instructions to replicate the examples shown in 
 
 ## Hardware Overview/Recommendations
 We tested the model on an NVIDIA RTX 4090 with 24GB VRAM on a Linux machine (Ubuntu 22.04 and Windows Subsystem for Linux).
-The model requires around 4GB of VRAM and should work on any modern NVIDIA GPU (e.g., Pascal architecture and newer).
-It may also work on systems without GPU (CPU inference), and Macs with M-series chips.
+The model requires around 4GB of VRAM and should work on any modern NVIDIA GPU (e.g., Pascal architecture or newer).
+It should also work on systems without GPU (CPU inference).
+
+It does currently not work on Macs but support for Macs with M-series chips will be added soon.
 
 ## Data
 No external data is necessary for replicating the examples shown in the paper. They require only prompting the model as shown in the code files and using the same model parameters.
