@@ -1,6 +1,6 @@
 # Overview
-This is the repository to the paper "Evaluating Large Language Models for Psychological Research: A Reporting Guideline".
-We provide all codes, data, and instructions to replicate the examples shown in the paper. We further provide the exact prompts as well as model parameters and the instructions to replicate our python programming environment.
+This is the repository to the paper "A Primer for Evaluating Large Language Models in Social Science Research".
+We provide all codes, data, and instructions to replicate our own examples shown in the paper. We further provide the exact prompts as well as model parameters and the instructions to replicate our python programming environment.
 
 ## Hardware Overview/Recommendations
 We tested the model on an NVIDIA RTX 4090 with 24GB VRAM on a Linux machine (Ubuntu 22.04 and Windows Subsystem for Linux).
